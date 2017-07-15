@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dip"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_back_clear_cache">
+
+    <LinearLayout
+        android:id="@+id/clear_history_data"
+        style="@style/personal_linearlayout">
+
+        <TextView
+            style="@style/personal_text"
+            android:text="清除历史纪录" />
+
+        <ImageView
+            style="@style/personal_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+    <LinearLayout
+        android:id="@+id/clear_bookmark_data"
+        style="@style/personal_linearlayout">
+
+        <TextView
+            style="@style/personal_text"
+            android:text="清除书签记录" />
+
+        <ImageView
+            style="@style/personal_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </LinearLayout>
+
+</LinearLayout>

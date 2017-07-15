@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.design.jhbrowser.qrcode.zxing.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:id="@+id/tv_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="100dp"
+        android:text="请扫描二维码"
+        android:textColor="#d78816"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_camera_diy_corner"
+        android:layout_width="720px"
+        android:layout_height="720px"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/bar_code_four_corner" />
+    <!--android:layout_marginTop="42dp"-->
+
+
+    <Button
+        android:id="@+id/btn_light_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@mipmap/torch_off" />
+
+    <ImageView
+        android:id="@+id/btn_cancel_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:src="@mipmap/btn_camera_cancel_scan"
+        android:visibility="invisible" />
+
+</RelativeLayout>

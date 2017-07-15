@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="main_bg" format="reference|color" />
+    <attr name="main_textcolor" format="reference|color" />
+    <attr name="second_bg" format="reference|color" />
+    <attr name="second_textcolor" format="reference|color" />
+    <attr name="search_bg" format="reference|color" />
+    <attr name="search_textcolor" format="reference|color" />
+    <attr name="personal_bg" format="reference|color" />
+    <attr name="personal_textcolor" format="reference|color" />
+    <attr name="line_bg" format="reference|color" />
+
+
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PageGridView">
+        <attr name="PagingRows" format="integer" />
+        <attr name="PagingColums" format="integer" />
+        <attr name="PagingDiver" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="Lock9View">
+        <attr name="lock9_nodeSrc" format="color|reference" />
+        <attr name="lock9_nodeOnSrc" format="color|reference" />
+        <attr name="lock9_nodeSize" format="dimension" />
+        <attr name="lock9_nodeAreaExpand" format="dimension" />
+        <attr name="lock9_nodeOnAnim" format="reference" />
+        <attr name="lock9_lineColor" format="color" />
+        <attr name="lock9_lineWidth" format="dimension" />
+        <attr name="lock9_padding" format="dimension" />
+        <attr name="lock9_spacing" format="dimension" />
+        <attr name="lock9_autoLink" format="boolean" />
+        <attr name="lock9_enableVibrate" format="boolean" />
+        <attr name="lock9_vibrateTime" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CalendarView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+</resources>

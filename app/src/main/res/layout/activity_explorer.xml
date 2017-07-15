@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/file_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetStart="2dp"
+            app:navigationIcon="@mipmap/img_back">
+
+            <com.design.jhbrowser.utils.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/my_string_file"
+                android:textColor="?attr/main_textcolor"
+                android:textSize="20sp" />
+        </android.support.v7.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@id/toolbar_file"
+        android:background="#ddd" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_file"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1px" />
+
+    <com.design.jhbrowser.utils.widget.ColorTextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/emptydir"
+        android:textColor="?attr/main_textcolor" />
+
+
+    <TextView
+        android:id="@+id/file_paste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="粘贴"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+
+</com.design.jhbrowser.utils.widget.ColorRelativeLayout>

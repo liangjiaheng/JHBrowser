@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/layout_video"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_video"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_video" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_video" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_game"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_game"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_game" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_game" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_shop"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_shop"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_shop" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_shop" />
+    </LinearLayout>
+
+</LinearLayout>

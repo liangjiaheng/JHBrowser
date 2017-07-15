@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/action_bar_color"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/pick_date"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/heading_font"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitEnd"
+        android:src="@drawable/ic_action_accept"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg"
+        fab:navigationIcon="@mipmap/img_back" />
+
+
+    <EditText
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_edit"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/btn_shape_search_edit_custorm"
+        android:hint="@string/title"
+        android:maxLength="50"
+        android:padding="15dip"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/note_title"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/btn_shape_search_edit_custorm"
+        android:gravity="start"
+        android:hint="@string/content"
+        android:inputType="textMultiLine"
+        android:padding="15dip" />
+
+    <ImageView
+        android:id="@+id/note_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save" />
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_action_save"
+        fab:fab_colorNormal="@color/app_color"
+        fab:fab_colorPressed="@color/white_pressed" />
+
+</com.design.jhbrowser.utils.widget.ColorRelativeLayout>

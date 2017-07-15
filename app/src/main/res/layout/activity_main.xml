@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+    android:orientation="vertical"
+    tools:context="com.design.jhbrowser.MainActivity">
+
+    <com.design.jhbrowser.utils.widget.ColorFrameLayout
+        android:id="@+id/layout_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/main_bg" />
+
+    <com.design.jhbrowser.utils.widget.ColorLinearLayout
+        android:id="@+id/navcigation_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/main_bg"
+        android:orientation="vertical">
+
+        <com.design.jhbrowser.utils.widget.ColorView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#444" />
+
+        <include layout="@layout/include_buttom_navigation" />
+
+    </com.design.jhbrowser.utils.widget.ColorLinearLayout>
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

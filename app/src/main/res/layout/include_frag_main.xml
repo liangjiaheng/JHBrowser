@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/second_bg"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <com.design.jhbrowser.utils.widget.ColorLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <com.design.jhbrowser.utils.widget.ColorTextView
+            android:id="@+id/tv_centigrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="30"
+            android:textColor="#eee"
+            android:textSize="32sp" />
+
+        <com.design.jhbrowser.utils.widget.ColorLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.design.jhbrowser.utils.widget.ColorTextView
+                android:id="@+id/tv_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="海淀"
+                android:textColor="#eee"
+                android:textSize="10sp" />
+
+            <com.design.jhbrowser.utils.widget.ColorTextView
+                android:id="@+id/tv_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="南风 晴"
+                android:textColor="#eee"
+                android:textSize="10sp" />
+
+
+        </com.design.jhbrowser.utils.widget.ColorLinearLayout>
+
+
+        <com.design.jhbrowser.utils.widget.ColorTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shape_wifi_back"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="wifi设置"
+            android:textColor="#eee"
+            android:textSize="14sp" />
+
+
+    </com.design.jhbrowser.utils.widget.ColorLinearLayout>
+
+
+    <com.design.jhbrowser.utils.widget.ColorLinearLayout
+        android:id="@+id/web_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="?attr/main_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/img_frag_main_search01" />
+
+        <com.design.jhbrowser.utils.widget.ColorTextView
+            android:id="@+id/search_to_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/input_address"
+            android:textColor="?attr/main_textcolor" />
+
+        <ImageView
+            android:id="@+id/img_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_frag_main_scan01" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="2dp" />
+
+        <ImageView
+            android:id="@+id/img_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/img_frag_main_speak01" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="2dp" />
+
+
+    </com.design.jhbrowser.utils.widget.ColorLinearLayout>
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

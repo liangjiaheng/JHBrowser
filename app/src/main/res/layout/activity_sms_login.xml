@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/search_bg"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg"
+        app:navigationIcon="@mipmap/img_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="50dp"
+        android:background="?attr/main_bg"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="手机号:"
+            android:textColor="?attr/main_textcolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:hint="请输入手机号"
+            android:inputType="phone"
+            android:lines="0"
+            android:maxLength="11"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textColor="?attr/main_textcolor"
+            android:textColorHint="#cccccc"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:background="?attr/main_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="验证码:"
+            android:textColor="?attr/main_textcolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:inputType="phone"
+            android:lines="0"
+            android:maxLength="6"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textColor="?attr/main_textcolor"
+            android:textColorHint="#cccccc"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSendMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sms_pass"
+            android:text="获取验证码"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmitCode"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_sms_pass"
+        android:gravity="center"
+        android:text="验证"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_changed_way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:gravity="center"
+        android:text="@string/change_login_way"
+        android:textColor="?attr/main_textcolor"
+        android:textSize="20sp" />
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

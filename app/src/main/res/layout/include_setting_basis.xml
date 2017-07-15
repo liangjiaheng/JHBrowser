@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="?attr/main_bg"
+    android:orientation="vertical"
+    tools:showIn="@layout/include_setting">
+
+    <RelativeLayout
+        android:id="@+id/set_personal"
+        style="@style/setting_relative">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="@string/set_personal" />
+
+        <ImageView
+            style="@style/setting_img"
+            android:src="@mipmap/img_nav_forword" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+    <RelativeLayout
+        android:id="@+id/set_clear_cache"
+        style="@style/setting_relative">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="@string/set_clear_cache" />
+
+        <ImageView
+            style="@style/setting_img"
+            android:src="@mipmap/img_nav_forword" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+    <RelativeLayout
+        android:id="@+id/set_about"
+        style="@style/setting_relative">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="@string/set_about" />
+
+        <ImageView
+            style="@style/setting_img"
+            android:src="@mipmap/img_nav_forword" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+    <RelativeLayout
+        android:id="@+id/set_feedback"
+        style="@style/setting_relative">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="@string/set_feedback" />
+
+        <ImageView
+            style="@style/setting_img"
+            android:src="@mipmap/img_nav_forword" />
+    </RelativeLayout>
+</LinearLayout>

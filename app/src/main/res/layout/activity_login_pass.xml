@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/search_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg"
+        app:navigationIcon="@mipmap/img_back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/search_bg"
+        tools:context="com.design.jhbrowser.login.passlogin.LoginPassActivity">
+
+        <TextView
+            android:id="@+id/tv_pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/tv_pass_login"
+            android:textColor="?attr/main_textcolor"
+            android:textSize="20sp" />
+
+
+        <com.design.jhbrowser.database.widget.ClearEditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pass_login"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="?attr/main_bg"
+            android:hint="@string/et_username"
+            android:padding="10dip"
+            android:textColor="?attr/main_textcolor" />
+
+
+        <com.design.jhbrowser.database.widget.ClearEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_username"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="?attr/main_bg"
+            android:hint="@string/et_password"
+            android:padding="10dip"
+            android:textColor="?attr/main_textcolor" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_sms_pass"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/btn_reegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_sms_pass"
+        android:text="注册" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_phone_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:gravity="center"
+        android:text="@string/phone_login"
+        android:textSize="18sp" />
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_add_bookmark">
+
+    <com.design.jhbrowser.database.widget.ClearEditText
+        android:id="@+id/et_clear_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_shape_search_edit_custorm"
+        android:drawableRight="@mipmap/img_search_edit_press"
+        android:hint="@string/clear_title"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+
+    <com.design.jhbrowser.database.widget.ClearEditText
+        android:id="@+id/et_clear_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_search_edit_custorm"
+        android:drawableRight="@mipmap/img_search_edit_press"
+        android:hint="@string/clear_address"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+</LinearLayout>

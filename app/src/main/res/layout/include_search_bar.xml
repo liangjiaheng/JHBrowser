@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/search_background"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_shape_search">
+
+        <EditText
+            android:id="@+id/search_wab"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_shape_search_edit"
+            android:hint="@string/search_content"
+            android:maxLines="1" />
+
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="@dimen/search_img"
+            android:layout_height="@dimen/search_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/img_frag_main_search01" />
+
+        <ImageView
+            android:id="@+id/img_eliminate"
+            android:layout_width="@dimen/eliminate_et"
+            android:layout_height="@dimen/eliminate_et"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/img_search_edit_press"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <com.design.jhbrowser.utils.widget.ColorTextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:text="@string/search_cancel"
+        android:textColor="?attr/search_textcolor" />
+
+    <com.design.jhbrowser.utils.widget.ColorTextView
+        android:id="@+id/tv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?attr/second_bg"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:text="@string/search_start"
+        android:textColor="?attr/search_textcolor"
+        android:visibility="gone" />
+
+
+</LinearLayout>

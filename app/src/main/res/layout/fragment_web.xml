@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_ting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg"
+        android:gravity="center_vertical"
+        android:padding="3dp">
+
+        <include layout="@layout/include_search_bar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/mProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e6fa"
+            android:progressDrawable="@drawable/progress_bar_drawable"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:layerType="software" />
+    </FrameLayout>
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

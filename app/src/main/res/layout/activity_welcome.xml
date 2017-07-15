@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.design.jhbrowser.welcome.custom.MyVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/text_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_shape_cornera"
+        android:padding="5dp"
+        android:text="@string/skip"
+        android:textColor="#ddd" />
+
+    <View
+        android:id="@+id/scaleplate"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/img_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scaleplate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/welcome_page" />
+
+    <TextView
+        android:id="@+id/text_WT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/browser"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_WT"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_shape_corner"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/begin_play"
+        android:textColor="#fff" />
+
+</RelativeLayout>

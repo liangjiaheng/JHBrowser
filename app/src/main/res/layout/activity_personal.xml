@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00695C"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="36dip"
+        android:paddingLeft="24dip"
+        android:paddingRight="15dip"
+        android:paddingTop="36dip">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_portrait"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_portrait_def"
+            app:riv_corner_radius="2dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dip"
+            android:layout_toRightOf="@id/img_portrait"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击登录"
+                android:textColor="?attr/main_textcolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="开启你的炫酷人生"
+                android:textColor="?attr/main_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_right_arrow_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.design.jhbrowser.personalcenter.widget.MenusLayout
+        android:id="@+id/menus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_user"
+        android:background="@color/purple" />
+
+    <com.design.jhbrowser.personalcenter.view.CreativeView
+        android:id="@+id/view_creative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="268dip" />
+
+    <com.design.jhbrowser.personalcenter.view.OpusView
+        android:id="@+id/view_opus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="168dip" />
+
+    <com.design.jhbrowser.personalcenter.view.DramaView
+        android:id="@+id/view_drama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="68dip" />
+</com.design.jhbrowser.utils.widget.ColorRelativeLayout>

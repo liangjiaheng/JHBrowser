@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/search_bg"
+    android:orientation="vertical">
+
+
+    <com.design.jhbrowser.utils.widget.ColorScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/include_clear_cache_back" />
+
+    </com.design.jhbrowser.utils.widget.ColorScrollView>
+
+</LinearLayout>

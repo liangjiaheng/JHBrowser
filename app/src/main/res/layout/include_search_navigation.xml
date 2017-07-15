@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+    android:orientation="vertical">
+
+    <com.design.jhbrowser.utils.widget.ColorTextView
+        android:id="@+id/text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:text="@string/search_select_classify"
+        android:textColor="#8f8f8f"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_search_nav_01" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <include layout="@layout/include_search_nav_02" />
+
+
+    </LinearLayout>
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

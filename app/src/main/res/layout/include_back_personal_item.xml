@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_back_personal">
+
+
+    <LinearLayout
+        android:id="@+id/set_choice_pass"
+        style="@style/personal_linearlayout">
+
+        <TextView
+            style="@style/personal_text"
+            android:text="选择解锁类型" />
+
+        <ImageView
+            style="@style/personal_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+
+    <LinearLayout
+        android:id="@+id/set_lock_password"
+        style="@style/personal_linearlayout">
+
+        <TextView
+            style="@style/personal_text"
+            android:text="设置图形密码" />
+
+        <ImageView
+            style="@style/personal_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?attr/line_bg" />
+
+    <LinearLayout
+        android:id="@+id/set_voice_password"
+        style="@style/personal_linearlayout">
+
+        <TextView
+            style="@style/personal_text"
+            android:text="设置声纹密码" />
+
+        <ImageView
+            style="@style/personal_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

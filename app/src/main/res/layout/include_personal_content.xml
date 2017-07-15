@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_personal_center">
+
+    <com.design.jhbrowser.utils.widget.ColorRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg">
+
+        <ImageView
+            android:id="@+id/img_personal_head"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/img_personal_login" />
+
+        <Button
+            android:id="@+id/btn_immediately_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_personal_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/btn_immediately_login"
+            android:textSize="20sp" />
+    </com.design.jhbrowser.utils.widget.ColorRelativeLayout>
+
+
+    <com.design.jhbrowser.utils.widget.ColorLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="?attr/main_bg"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <com.design.jhbrowser.utils.widget.ColorTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_collect"
+            android:textColor="?attr/personal_textcolor"
+            android:textSize="20sp" />
+
+
+    </com.design.jhbrowser.utils.widget.ColorLinearLayout>
+
+
+</LinearLayout>

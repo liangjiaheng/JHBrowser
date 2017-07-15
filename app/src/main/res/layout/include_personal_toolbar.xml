@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/main_bg">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/personal_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="2dp"
+        app:navigationIcon="@mipmap/img_back"
+        tools:showIn="@layout/activity_personal_center">
+
+        <com.design.jhbrowser.utils.widget.ColorTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/personal_center"
+            android:textColor="?attr/main_textcolor"
+            android:textSize="23sp" />
+    </android.support.v7.widget.Toolbar>
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

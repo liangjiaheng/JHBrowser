@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mt_main_font_color">#eee</color>
+
+    <color name="bg_main_normal">#ffffff</color>
+    <color name="textcolor_main_normal">#010101</color>
+    <color name="bg_main_dark">#222222</color>
+    <color name="textcolor_main_dark">#ffffff</color>
+    <color name="bg_second_normal">#54acff</color>
+    <color name="textcolor_second_normal">#010101</color>
+    <color name="bg_second_dark">#333333</color>
+    <color name="textcolor_second_dark">#ffffff</color>
+    <color name="bg_search_normal">#f5f5f5</color>
+    <color name="textcolor_search_normal">#666666</color>
+    <color name="bg_search_dark">#23282d</color>
+    <color name="textcolor_search_dark">#686d74</color>
+    <color name="bg_personal_normal">#f0f0f0</color>
+    <color name="textcolor_personal_normal">#101010</color>
+    <color name="bg_personal_dark">#202327</color>
+    <color name="textcolor_personal_dark">#686d74</color>
+
+    <color name="bg_line_normal">#dbdbdb</color>
+    <color name="bg_line_dark">#2e3236</color>
+
+    <color name="system_bar_normal">#3088ff</color>
+    <color name="system_bar_dark">#222222</color>
+
+
+    <color name="rippelColor_day">#999999</color>
+    <color name="transparency">#00000000</color>
+
+
+    <color name="red">#FF0000</color>
+    <color name="bg_color">#EDEDED</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+    <color name="white">#FFFFFF</color>
+    <color name="restaurant_name">#a35205</color>
+    <color name="yellows">#d78816</color>
+
+    <color name="blue_light">#ff33b5e5</color>
+
+    <color name="bg_gray">#fff2f2f2</color>
+    <color name="transparent_black">#55000000</color>
+    <color name="divider_gray_menu">#ff4B4A50</color>
+    <color name="divider_black_menu">#ff28292C</color>
+    <color name="theme_color">#eeb8b6b6</color>
+
+
+    <!--launcherView need-->
+    <color name="load_red">#fa007a</color>
+    <color name="load_purple">#935fe7</color>
+    <color name="load_yellow">#f9b11f</color>
+    <color name="load_blue">#009cfa</color>
+
+
+    <color name="black_deep">#FF000000</color>
+    <color name="purple">#005046</color>
+    <color name="last_msg_tv_color">#ffaaaaaa</color>
+    <color name="common_bg">#EBEBEB</color>
+    <color name="gray_pressed">#666667</color>
+    <color name="news_time_color">#9a9a9a</color>
+
+
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="app_color">#ff6cb506</color>
+
+</resources>

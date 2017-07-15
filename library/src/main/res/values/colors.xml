@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cal_background">#212021</color>
+    <color name="list_row_border_color">#BDBDBD</color>
+    <color name="selected_row_color">#4A4D4A</color>
+
+
+    <color name="material_background">#00695C</color>
+    <color name="material_selected_row_color">#005046</color>
+    <color name="material_text_color">#FFFFFF</color>
+    <color name="material_list_row_border_color">#BDBDBD</color>
+    <color name="action_bar_color">#001D19</color>
+
+
+
+
+</resources>

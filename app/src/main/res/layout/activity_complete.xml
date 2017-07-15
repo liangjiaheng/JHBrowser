@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/search_bg"
+    android:orientation="vertical"
+    tools:context="com.design.jhbrowser.login.passlogin.CompleteActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/main_bg"
+        app:navigationIcon="@mipmap/img_back" />
+
+    <com.design.jhbrowser.database.widget.ClearEditText
+        android:id="@+id/cl_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="?attr/main_bg"
+        android:hint="@string/et_username"
+        android:padding="10dip"
+        android:textColor="?attr/main_textcolor" />
+
+    <com.design.jhbrowser.database.widget.ClearEditText
+        android:id="@+id/cl_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="?attr/main_bg"
+        android:hint="@string/et_password"
+        android:padding="10dip"
+        android:textColor="?attr/main_textcolor" />
+
+    <com.design.jhbrowser.database.widget.ClearEditText
+        android:id="@+id/cl_telphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="?attr/main_bg"
+        android:hint="@string/cl_telphone"
+        android:padding="10dip"
+        android:textColor="?attr/main_textcolor" />
+
+    <TextView
+        android:id="@+id/cl_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="?attr/main_bg"
+        android:hint="@string/cl_age"
+        android:padding="10dip"
+        android:textColor="?attr/main_textcolor" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_sms_pass"
+        android:text="完成" />
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout style="@style/include_res">
+
+        <CheckBox
+            android:id="@+id/check_night"
+            style="@style/include_dialog"
+            android:background="@drawable/selector_night_checked" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/include_res">
+
+        <CheckBox
+            android:id="@+id/check_no_pic"
+            style="@style/include_dialog"
+            android:background="@drawable/selector_no_pic_checked" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/include_res">
+
+        <CheckBox
+            android:id="@+id/check_lock"
+            style="@style/include_dialog"
+            android:background="@drawable/selector_full_checked" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/include_res">
+
+        <CheckBox
+            android:id="@+id/check_history"
+            style="@style/include_dialog"
+            android:background="@drawable/selector_histroy_checked" />
+    </RelativeLayout>
+
+</LinearLayout>

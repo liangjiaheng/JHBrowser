@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="action_settings">setting</string>
+
+    <string name="pick_date">Pick A Date</string>
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

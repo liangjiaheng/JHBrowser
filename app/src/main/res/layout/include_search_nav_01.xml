@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/layout_hotspot"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_hotspot"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_hotspot" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_hotsopt"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_application"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_application"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_application" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_application" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_book"
+        style="@style/search_style">
+
+        <ImageView
+            android:id="@+id/img_book"
+            style="@style/wrap_content_style"
+            android:src="@mipmap/img_search_book" />
+
+        <TextView
+            style="@style/wrap_content_style"
+            android:text="@string/search_book" />
+    </LinearLayout>
+
+</LinearLayout>

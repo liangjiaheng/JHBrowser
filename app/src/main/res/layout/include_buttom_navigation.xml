@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg"
+    android:orientation="horizontal">
+
+    <com.design.jhbrowser.test.RippleView
+        style="@style/style_ripple"
+        ripple:rv_type="doubleRipple">
+
+        <ImageView
+            android:id="@+id/img_nav_back"
+            style="@style/style_img"
+            android:src="@mipmap/img_nav_back" />
+
+    </com.design.jhbrowser.test.RippleView>
+
+    <com.design.jhbrowser.test.RippleView
+        style="@style/style_ripple"
+        ripple:rv_type="doubleRipple">
+
+        <ImageView
+            android:id="@+id/img_nav_forword"
+            style="@style/style_img"
+            android:src="@mipmap/img_nav_forword" />
+
+    </com.design.jhbrowser.test.RippleView>
+
+    <com.design.jhbrowser.test.RippleView
+        style="@style/style_ripple"
+        ripple:rv_type="doubleRipple">
+
+        <ImageView
+            android:id="@+id/img_nav_dialog"
+            style="@style/style_img"
+            android:src="@mipmap/img_nav_dialog" />
+
+    </com.design.jhbrowser.test.RippleView>
+
+    <com.design.jhbrowser.test.RippleView
+        style="@style/style_ripple"
+        ripple:rv_type="doubleRipple">
+
+        <ImageView
+            android:id="@+id/img_nav_main"
+            style="@style/style_img"
+            android:src="@mipmap/img_nav_main" />
+
+    </com.design.jhbrowser.test.RippleView>
+
+    <com.design.jhbrowser.test.RippleView
+        style="@style/style_ripple"
+        ripple:rv_type="doubleRipple">
+
+        <ImageView
+            android:id="@+id/img_nav_manager"
+            style="@style/style_img"
+            android:src="@mipmap/img_nav_manager" />
+
+    </com.design.jhbrowser.test.RippleView>
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>

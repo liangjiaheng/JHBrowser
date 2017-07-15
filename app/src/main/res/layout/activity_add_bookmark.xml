@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.jhbrowser.utils.widget.ColorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/search_bg"
+    android:orientation="vertical"
+    tools:context="com.design.jhbrowser.database.widget.AddBookmarkActivity">
+
+
+    <include layout="@layout/include_add_bookmark" />
+
+    <com.design.jhbrowser.utils.widget.ColorScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/include_add_edit" />
+
+    </com.design.jhbrowser.utils.widget.ColorScrollView>
+
+
+</com.design.jhbrowser.utils.widget.ColorLinearLayout>
